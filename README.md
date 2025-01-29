@@ -19,21 +19,22 @@ The project utilizes the California housing dataset, which contains the followin
 The project follows a structured ML workflow:
 1. **Data Acquisition**: Downloading and loading the dataset from a remote source.
 2. **Exploratory Data Analysis (EDA)**: Understanding data distribution through histograms, scatter plots, and correlation analysis.
-    <img width="402" alt="image" src="https://github.com/user-attachments/assets/91cfb1b4-52bf-4660-be25-e65ac26d67c7" /> <img width="298" alt="image" src="https://github.com/user-attachments/assets/63f48da1-6780-4693-a8a0-cc7877c93225" />
-3. **Data Preprocessing**:
+
+   <img width="360" alt="image" src="https://github.com/user-attachments/assets/91cfb1b4-52bf-4660-be25-e65ac26d67c7" /> <img width="256" alt="image" src="https://github.com/user-attachments/assets/63f48da1-6780-4693-a8a0-cc7877c93225" />
+4. **Data Preprocessing**:
    - Handling missing values using median imputation.
    - Encoding categorical variables using One-Hot Encoding.
    - Feature engineering (e.g., creating new ratio-based features).
    - Feature scaling using Standardization.
-4. **Model Training and Evaluation**:
+5. **Model Training and Evaluation**:
    - Leveraging Scikit-learn's `Pipeline` and `ColumnTransformer` to streamline preprocessing and modeling.
    - Training multiple models, including Linear Regression, Decision Trees, and Random Forest.
    - Using Cross-Validation for performance assessment.
    - Hyperparameter tuning using Grid Search and Randomized Search.
-5. **Final Model Selection**:
+6. **Final Model Selection**:
    - Selecting the best-performing model based on evaluation metrics.
    - Analyzing feature importance for interpretability.
-6. **Testing and Deployment**:
+7. **Testing and Deployment**:
    - Evaluating the model on a separate test set.
    - Computing confidence intervals for performance robustness.
 
