@@ -40,7 +40,7 @@ The project follows a structured ML workflow:
 
 ## Results
 - The final model was a tuned **Random Forest Regressor**.
-- Reduced RMSE from **~68,000 USD** (Linear Regression) to **~44,000 USD** (Tuned Random Forest), significantly improving prediction accuracy for house prices ranging from 120,000 to 500,000 USD.
+- Reduced RMSE from **~68,000 USD** (Linear Regression) to **~41,000 USD** (Tuned Random Forest), significantly improving prediction accuracy for house prices ranging from 120,000 to 500,000 USD.
 - Feature importance analysis showed that `median_income` had the strongest influence on house prices.
 
 ## License
